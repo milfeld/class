@@ -1,0 +1,12 @@
+set dummy u,v
+set parametric
+set view 45, 50, 1, 1
+set isosamples 100, 20
+set nokey; unset xtics; unset ytics; unset ztics
+set hidden3d offset 1 trianglepattern 3 undefined 1 altdiagonal bentover
+set ticslevel 0
+set title "Parametric Helix"
+set urange [0.0 : 31.41569 ]
+set vrange [0.0 :  6.28319 ]
+set zrange [  * :  *       ]
+splot (1-0.1*cos(v))*cos(u), (1-0.1*cos(v))*sin(u), 0.1*(sin(v)+u/1.7-10)

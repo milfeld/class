@@ -1,0 +1,5 @@
+#!/usr/bin/gnuplot
+set key below
+plot 'using.dat' u 3:4 w linesp, 'using.dat' u 3:4 smooth bezier t 'Smoothed' w l
+pause 1
+

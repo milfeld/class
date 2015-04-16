@@ -1,0 +1,90 @@
+These instructions and directories were obtained from:
+
+    git clone http://github.com/milfeld/class
+
+Instructions:
+
+
+In each of the following directories there is
+a do file. They have the gnuplot commands to
+create a plot.  Any special instructions are 
+included in a README file in the directory.
+
+Use the commands in the do files to create
+a gnuplot.  Perform them in the following order:
+
+basics
+function  
+hist  
+multiplot  
+smooth
+param
+splot
+png
+
+There are 4 ways to generate the plots.
+
+1.) This is the simple way.
+    cat the "do" file:  
+
+    $ cat do
+
+    highlight the listed commands into your copy buffer. 
+    Execute gnuplot:
+    
+    $ gnuplot
+
+    At the gnuplot prompt, paste the commands.
+
+    gnuplot>       <-----PASTED COMMANDS HERE
+
+ -------------------------------------------------- 
+
+2.) Enter the command individually.
+
+    List the command in the "do" file:  
+
+    $ cat do
+
+    Execute gnuplot:
+    
+    $ gnuplot
+
+    At the gnuplot prompt type in each commands
+
+    gnuplot>       <-----Type in each command
+
+
+3.) Run the commands as a batch script.
+
+    Execute gnuplot:
+    
+    $ gnuplot
+
+    Load up the do file at the gnuplot prompt:
+
+    gnuplot>  load 'do'
+
+4.) Run the commands as an argument to gnuplot command.
+
+    copy the "do" file to "do_cmdline"
+    At the end of do_cmdline add:  
+
+    pause -1 "Hit any key to continue"
+
+    include the do_cmdline file name on the gnuplot command line:
+    
+    $ gnuplot do_cmdline
+
+There is actually another way to do this by executing a file
+with the commands in them,  e.g. something like "do_cmd" will
+execute the plot.  See the instructions in the smooth directory.
+
+
+Need help?
+
+   man gnuplot
+
+   or
+
+   gnuplot>  help <subject_name>

@@ -1,0 +1,29 @@
+These instructions and directories were obtained from:
+    git clone http://github.com/milfeld/class
+
+Instructions:
+
+Execute the sine function command 3 different ways:
+
+
+1.)
+
+    Execute gnuplot, then enter command.
+    
+    $ gnuplot
+    gnuplot> plot sin(x)  <--type, or paste cmd from do file
+
+
+
+2.) Run the commands as a batch script.
+
+    $ gnuplot
+
+    gnuplot>  load 'do'
+
+
+3.) Run the command as an argument to gnuplot command.
+    (note, do_cmdline has a pause statement, 
+     try it without the pause statement)
+
+    $ gnuplot do_cmdline

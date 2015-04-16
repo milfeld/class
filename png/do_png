@@ -1,0 +1,16 @@
+set dummy u,v ; set nokey
+set parametric
+set view 50, 30, 1, 1
+set isosamples 50, 20
+set hidden3d
+set ticslevel 0
+set urange [ -3.14259 : 3.14159 ]
+set vrange [ -3.14259 : 3.14159 ]
+set zrange [  *       : *       ]
+set term png transparent medium
+set output 'test1.png'
+splot cos(u) + 0.5*cos(u)*cos(v), \
+      sin(u) + 0.5*sin(u)*cos(v), \
+               0.5*sin(v) w l, \
+    1+cos(u) + 0.5*cos(u)*cos(v), \
+               0.5*sin(v),sin(u)+0.5*sin(u)*cos(v) w l

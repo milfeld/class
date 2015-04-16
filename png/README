@@ -1,0 +1,9 @@
+These instructions and directories were obtained from:
+    git clone http://github.com/milfeld/class
+
+Instructions:
+
+
+1.) Create the chain-link plot as usual from the do file.
+2.) Create a png formatted output file, and view it with
+    whatever viewer you normally to look at png files.

@@ -1,0 +1,29 @@
+These instructions and directories were obtained from:
+    git clone http://github.com/milfeld/class
+
+Instructions:
+
+
+First,
+execute the commands in do to make sure everything is working.
+
+
+Then, make sure the correct path is on the first line of the do_cmd
+file:
+     Type:
+       which python
+
+
+     Make sure the path from the "which" command is the same as the
+     one on the first line in the do_cmd (change it if necessary).
+
+
+     Now, execute the do_cmd:
+
+       do_cmd
+
+       OR
+
+       ./do_cmd       #if "." is not in your path.
+
+

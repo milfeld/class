@@ -1,0 +1,15 @@
+These instructions and directories were obtained from:
+    git clone http://github.com/milfeld/class
+
+Instructions:
+
+
+Do this exercise interactively.
+
+
+Then use the up-arrow to get the last plot command
+and experiment with changing the 
+
+   color (lt) and linewidth (w) 
+
+to different values.

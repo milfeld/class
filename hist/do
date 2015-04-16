@@ -1,0 +1,8 @@
+set boxwidth -.5 absolute
+set style fill solid 1.00000 border -1
+set samples 25, 25
+set noxtics
+set noytics
+set title "Filled boxes of reduced width"
+set yrange [ 0.00000 : 120.000 ]
+plot [-10:10] 100/(1.0+x*x)  title 'distribution' with boxes

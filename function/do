@@ -1,0 +1,2 @@
+set grid
+plot (1.2e-5)*(x**1.4)/exp(x)

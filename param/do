@@ -1,0 +1,5 @@
+set dummy t,y
+set parametric
+set trange [ 0.0001 : 31.4159 ]
+set yrange [ -1.5   : 1.5     ]
+plot sin(t)/t, cos(t)/t  w l  lt 3 lw 2
