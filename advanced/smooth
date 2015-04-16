@@ -1,0 +1,4 @@
+set term x11  title "smoothing" linewidth 3
+plot "smooth.dat" using 1:2:3 notitle with yerrorbars, \
+     "smooth.dat" using 1:2:3 smooth acsplines title "acsplines" w l, \
+     "smooth.dat" using 1:2   smooth bezier title "bezier"       w l

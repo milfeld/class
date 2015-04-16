@@ -1,0 +1,2 @@
+set term x11 enhanced font "arial,15" 
+set title '{/=20 Big} Medium {/=5 Small}' 
