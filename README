@@ -21,6 +21,7 @@ smooth
 param
 splot
 png
+advanced
 
 There are 4 ways to generate the plots.
 
